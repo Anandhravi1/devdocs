@@ -107,7 +107,7 @@ To ensure that the text you add in a `.js` file is collected by the i18n tool an
 1. Link the `mage/translate` library:
 
    ```javascript
-   define (['jquery', 'mage/translate'], function ($) {...});
+   define (['jquery', 'mage/translate'], function ($,$t) {...});
    ```
 
 1. Use the `$.mage.__('')` function when adding a string:
